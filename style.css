@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+.logo img{
+	width: 178px;
+}
+.nav{
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+	
+}
+.nav li{
+	margin-left: 40px;
+	
+}
+.nav li a{
+	text-decoration: none;
+	color: #181717;
+	font-weight: bold;
+}
+.nav li a:hover{
+	opacity: 0.5;
+}
+/*header*/
+.content-banner h1{
+	font-size: 44px;
+}
+.line{
+	height: 3px;
+	width: 52px;
+	border: 1.5px solid #B7B3B3;
+	margin: 28px 0;
+}
+.algin-bot{
+	align-items: flex-end;
+}
+.content-banner p{
+	font-size: 20px;
+	margin-bottom: 54px;
+}
+.btn{
+	padding: 15px 40px;
+	text-decoration: none;
+	
+}
+.btn-primary{
+	background: #6C63FF;
+	border: 1.5px solid #353434;
+	color: white;
+}
+.btn-outline{
+	border: 1.5px solid #B7B3B3;
+	color: #00000
+}
+.banner img{
+	width: 509px;
+}
+.content-banner{
+	margin-bottom: 20px;
+}
+/*banner--*/
+.how-it-works{
+	padding: 100px 0;
+}
+.title{
+	text-align: center;
+}
+.title h1{
+	font-size: 44px;
+}
+.title p{ 
+	font-size:20px;
+}
+.title .line{
+	margin: 28px auto;
+}
+/*titlehowitworks*/
+.feature-img img{
+	width: 207px;
+}
+.app{
+	text-align: center;
+}
+.app h1{
+	font-size:27px;
+	margin: 40px 0 12px;
+}
+.app p {
+	font-size:14px;
+}
+.picture img{
+	width: 475px;
+}
+/*realtime===*/
+
+
+.real-time{
+	background: #F0F0F0;
+	height: 580px;
+}
+.picture img{
+
+	width:495px;
+	margin-bottom: 50px;
+	position: relative;
+}
+.left{
+	position: relative
+}
+.shape{
+	position: absolute;
+	left: -80px;
+	top: -50px;
+	width: 221px;
+	height: 221px;
+	background:#B9B9B9;
+	border-radius: 50%
+}
+.check h1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.check p{
+	font-size: 20px;
+	margin-bottom: 17px
+}
+.check a{
+	font-size: 22px;
+	color: #6C63FF;
+	text-decoration: none;
+	font-weight: 600;
+}
+.check a:hover{
+	opacity: 0.5
+}
+/*
+
+*/
+.check .line{
+	margin: 5px 15px 30px
+}
+/*copyright---*/
+.copyright{
+	text-align: center;
+}
+.copyright p{
+	font-size: 18px;
+	margin-top: 36px;
+/*	padding-top: 36px;*/
+	font-weight: 600;
+	color: #B7B3B3;
+}
+.copyright img{
+	width: 130px;
+	margin-bottom: 20px
+}
